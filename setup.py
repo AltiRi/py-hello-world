@@ -5,7 +5,7 @@ setup(
     version="0.0.1",
     entry_points={
         "console_scripts": [
-            "py-hello-world = main:say_hi",
+            "py-hello-world = py_hello_world.main:say_hi",
         ]
     }
 )
